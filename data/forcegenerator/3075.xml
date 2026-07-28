@@ -1523,9 +1523,9 @@
             </model>
         </chassis>
         <chassis name='Arbalest' unitType='Mek'>
-            <availability>CDS:2,CNC:4,MERC:2</availability>
+            <availability>CNC!Second Line:3</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <availability>CNC:8</availability>
             </model>
         </chassis>
         <chassis name='Arbiter' unitType='Mek'>
@@ -4782,7 +4782,7 @@
             <model name='COM-2D'>
                 <roles>recon</roles>
                 <deployedWith>Commando</deployedWith>
-                <availability>IS:4-,LA:2-,Periphery:4-,TC:4-,Periphery.Deep:8,HL:2-</availability>
+                <availability>IS:4-,LA:2-,Periphery:4-,TC:4-,Periphery.Deep:8,HL:2-,BAN:8</availability>
             </model>
             <model name='COM-2Dr'>
                 <roles>recon</roles>
@@ -4798,7 +4798,7 @@
             </model>
             <model name='COM-5S'>
                 <roles>recon</roles>
-                <availability>FS:2,LA:8,FRR:6,MERC:5,CWIE:8,FVC:3,TC:3+,MOC:3+,CDP:3+,MH:3+</availability>
+                <availability>FS:2,LA:8,FRR:6,MERC:5,CWIE:8,FVC:3,TC:3+,CDP:3+,MOC:3+,MH:3+</availability>
             </model>
             <model name='COM-7B'>
                 <roles>recon</roles>
@@ -5589,7 +5589,7 @@
             </model>
         </chassis>
         <chassis name='Dasher (Fire Moth)' unitType='Mek' omni='Clan'>
-            <availability>IS:3+,MERC:3+,MERC.WD:3,CLAN.IS:2+,CGB!Keshik:3!Front Line:3!Second Line:1,CHH:3+,CJF!Keshik:1!Front Line:1!Second Line:1,CSR!Keshik:1!Front Line:1,CWIE!Keshik:1!Front Line:1!Second Line:1,CLAN.HW!Keshik:1!Front Line:1,CCO!Keshik:1!Front Line:2,CFM:3+,CGS:2+,CIH!Keshik:4!Front Line:3!Second Line:1,CSA!Keshik:1!Front Line:1!Second Line:1,CSV:3+,BAN!Keshik:1!Front Line:1,SOC!Keshik:2!Front Line:1!Second Line:1</availability>
+            <availability>IS:3+,MERC:3+,MERC.WD:3,CLAN.IS:2+,CGB!Keshik:3!Front Line:3!Second Line:1,CHH:3+,CJF!Keshik:1!Front Line:1!Second Line:1,CWIE!Keshik:1!Front Line:1!Second Line:1,CLAN.HW!Keshik:1!Front Line:1,CCO!Keshik:1!Front Line:2,CFM:3+,CGS:2+,CIH!Keshik:4!Front Line:3!Second Line:1,CSR!Keshik:1!Front Line:1,CSA!Keshik:1!Front Line:1!Second Line:1,CSV:3+,BAN!Keshik:1!Front Line:1,SOC!Keshik:2!Front Line:1!Second Line:1</availability>
             <model name='A'>
                 <roles>recon,spotter</roles>
                 <availability>IS:3,CLAN.IS:3-,CGB:5-,CWIE:2,CLAN.HW:4-,CB:3-,CCO:3-,CIH:3-,CSR:4-,CSV:3-,BAN:5,SOC:5</availability>
@@ -5602,7 +5602,7 @@
                 <availability>IS:5,CLAN.IS:7-,CGB:5,CLAN.HW:6-,CBS:4,CCO:4,CFM:7-,CIH:5+,CSR:6-,CSV:5-,BAN:4,SOC:3</availability>
             </model>
             <model name='D'>
-                <availability>IS:6,CLAN.IS:5+,CGB:6+,CWIE:4+,CLAN.HW:5+,CBS:3+,CIH:4+,CSR:5+,CS:4+,CSV:4+,BAN:3+,SOC!Keshik:5!Front Line:1</availability>
+                <availability>IS:6,CLAN.IS:5+,CGB:6+,CWIE:4+,CLAN.HW:5+,CBS:3+,CIH:4+,CSR:5+,CSA:4+,CSV:4+,BAN:3+,SOC!Keshik:5!Front Line:1</availability>
             </model>
             <model name='E'>
                 <availability>MERC.KH:2+,MERC.WD:2,CLAN.IS:3+,CHH:2+,CJF:2,CW:2,CLAN.HW:2+,CBS:1+,CCC:4+,CCO!Keshik:5!Front Line:3,CSL:4+,CSR!Keshik:5!Front Line:2,CSV:3+,SOC:6</availability>
@@ -6003,9 +6003,9 @@
             </model>
         </chassis>
         <chassis name='Drift Shag' unitType='Mek'>
-            <availability>CIH!Second Line:1,SOC!Solahma:1</availability>
+            <availability>CGS!Solahma:1,CIH!Second Line:1,SOC!Solahma:1</availability>
             <model name=''>
-                <availability>CIH:8,SOC:8</availability>
+                <availability>CGS:8,CIH:8,SOC:8</availability>
             </model>
         </chassis>
         <chassis name='Drillson Heavy Hover Tank' unitType='Tank'>
@@ -6548,7 +6548,7 @@
                 <availability>FWL:8,IS:4,WOB:6</availability>
             </model>
             <model name='FNHK-9K1A'>
-                <availability>General:8</availability>
+                <availability>IS:8</availability>
             </model>
             <model name='FNHK-9K1B'>
                 <roles>spotter</roles>
