@@ -859,11 +859,11 @@
             </model>
             <model name='(Riot Police 2200+)'>
                 <roles>civilian</roles>
-                <availability>MERC:8,Periphery:8,Periphery.Deep:8,PIR:8</availability>
+                <availability>MERC:4-,Periphery:5-,Periphery.Deep:8,PIR:8</availability>
             </model>
             <model name='(Riot Police 2400+)'>
                 <roles>civilian</roles>
-                <availability>MERC!A:3,Periphery:1+:2415,Periphery.Deep:1+:2420,PIR:0</availability>
+                <availability>MERC:8,Periphery:6,Periphery.Deep:1+,PIR:0</availability>
             </model>
             <model name='(Sappers 2200+)'>
                 <roles>engineer,minesweeper</roles>
@@ -1784,7 +1784,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Platoon (Generic)' unitType='Infantry'>
-            <availability>MERC:4,Periphery!A:5!B:4!C:5!D:4!C:3,TC:0,Periphery.Deep!A:6!B:3!C:1,PIR!A:7!B:6!C:5!D:4!F:2</availability>
+            <availability>MERC:4,Periphery!A:5!B:4!C:5!D:4!F:3,TC:0,Periphery.Deep!A:6!B:3!C:1,PIR!A:7!B:6!C:5!D:4!F:2</availability>
             <model name='(Combat Engineers 2200+)'>
                 <roles>engineer</roles>
                 <availability>MERC!A:2!B:1!C:1,Periphery:0,Periphery.Deep:0,PIR:0</availability>

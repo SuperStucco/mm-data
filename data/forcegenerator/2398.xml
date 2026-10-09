@@ -1645,7 +1645,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Platoon (Generic)' unitType='Infantry'>
-            <availability>MERC:4,Periphery!A:5!B:4!C:5!D:4!C:3,TC:0,Periphery.Deep!A:6!B:3!C:1,PIR!A:7!B:6!C:5!D:4!F:2</availability>
+            <availability>MERC:4,Periphery!A:5!B:4!C:5!D:4!F:3,TC:0,Periphery.Deep!A:6!B:3!C:1,PIR!A:7!B:6!C:5!D:4!F:2</availability>
             <model name='(Combat Engineers 2200+)'>
                 <roles>engineer</roles>
                 <availability>MERC!A:2!B:1!C:1,Periphery:0,Periphery.Deep:0,PIR:0</availability>
