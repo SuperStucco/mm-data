@@ -862,7 +862,7 @@
             </model>
             <model name='(Laser XCT 2410+)'>
                 <roles>xct</roles>
-                <availability>MERC!A:1!B:2!C:1,Periphery:0,Periphery.Deep:0,PIR:0</availability>
+                <availability>MERC!A:1!B:1!C:1,Periphery:0,Periphery.Deep:0,PIR:0</availability>
             </model>
             <model name='(MG 2200+)'>
                 <roles>anti_infantry</roles>
@@ -1162,7 +1162,7 @@
                 <availability>MERC!A:3!B:3!C:3,Periphery!A:2!B:2,PIR:0</availability>
             </model>
             <model name='(Recoilless 2200+)'>
-                <availability>MERC!C:1,Periphery!B:2,PIR!C:1!D:1</availability>
+                <availability>MERC!C:1,Periphery!B:2,PIR!B:1!C:1</availability>
             </model>
             <model name='(Recoilless Heavy 2315+)'>
                 <availability>MERC!B:1!C:1,Periphery!B:1,PIR:0</availability>
