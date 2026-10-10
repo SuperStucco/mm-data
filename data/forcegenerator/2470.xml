@@ -330,6 +330,17 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Branth Platoon (Generic)' unitType='Infantry'>
+            <availability>Periphery.MW:1,Periphery.ME:1</availability>
+            <model name='(Riot Police 2200+)'>
+                <roles>civilian</roles>
+                <availability>Periphery.MW:8,Periphery.ME:8</availability>
+            </model>
+            <model name='(Riot Police 2400+)'>
+                <roles>civilian</roles>
+                <availability>Periphery.MW:2+:2415,Periphery.ME:2+:2415</availability>
+            </model>
+        </chassis>
         <chassis name='Burro Heavy Support Truck' unitType='Tank'>
             <availability>IS:6,Periphery:6,Periphery.Deep:0</availability>
             <model name=''>
@@ -802,13 +813,13 @@
             </model>
             <model name='(Rifle Paratrooper)'>
                 <roles>paratrooper</roles>
-                <availability>IS:3,Periphery:2,TC:0</availability>
+                <availability>IS:3,TC:0</availability>
             </model>
             <model name='(Rifle)'>
-                <availability>IS:8,Periphery:8</availability>
+                <availability>IS:8,TC:6</availability>
             </model>
             <model name='(SRM)'>
-                <availability>IS:5,Periphery:5,TC:3+,Periphery.Deep:5+</availability>
+                <availability>IS:5,TC:3+</availability>
             </model>
         </chassis>
         <chassis name='Foot Platoon (CCAF)' unitType='Infantry'>
@@ -1634,7 +1645,7 @@
             </model>
             <model name='(Mortar 2200+)'>
                 <roles>fire_support</roles>
-                <availability>Periphery!B:1!C:2!D:2!F:2,PIR:0</availability>
+                <availability>Periphery!B:1!C:2,PIR:0</availability>
             </model>
             <model name='(Recoilless 2200+)'>
                 <availability>Periphery!B:2!C:2,PIR!B:1</availability>
