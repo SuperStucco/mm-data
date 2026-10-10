@@ -2392,6 +2392,15 @@
                 <availability>TC:5+</availability>
             </model>
         </chassis>
+        <chassis name='Motorized Squad (Generic)' unitType='Infantry'>
+            <availability>Periphery!D:2!F:5,TC:0,Periphery.Deep!C:2!D:3!F:4,PIR!C:3!D:3!F:3</availability>
+            <model name='(Rifle 2200+)'>
+                <availability>Periphery:6,Periphery.Deep:4,PIR:6</availability>
+            </model>
+            <model name='(Rifle Light 2200+)'>
+                <availability>Periphery:10-,Periphery.Deep:10-,PIR:10-</availability>
+            </model>
+        </chassis>
         <chassis name='Motorized Sub Platoon' unitType='Infantry'>
             <availability>IS:1,FS:3,CC:0,MERC:0</availability>
             <model name='(Laser SCUBA)'>
@@ -2404,15 +2413,6 @@
             <model name=''>
                 <roles>civilian</roles>
                 <availability>CC:8</availability>
-            </model>
-        </chassis>
-        <chassis name='Motorized Squad (Generic)' unitType='Infantry'>
-            <availability>Periphery!D:2!F:5,TC:0,Periphery.Deep!C:2!D:3!F:4,PIR!C:3!D:3!F:3</availability>
-            <model name='(Rifle 2200+)'>
-                <availability>Periphery:6,Periphery.Deep:4,PIR:6</availability>
-            </model>
-            <model name='(Rifle Light 2200+)'>
-                <availability>Periphery:10-,Periphery.Deep:10-,PIR:10-</availability>
             </model>
         </chassis>
         <chassis name='Mustang Fighter' unitType='Conventional Fighter'>
