@@ -1520,10 +1520,10 @@
             </model>
         </chassis>
         <chassis name='Charger' unitType='Mek'>
-            <availability>IS:3-,FS:0,LA!D:1!F:3,FWL:2-,CC:0,MERC!B:1!C:1!D:2!F:3,Periphery:3-,TC!D:1!F:3,Periphery.Deep!A:1!B:1!C:2!D:3!F:4,HL:4-,PIR!A:1!B:1!C:2!D:3!F:4</availability>
+            <availability>IS:3-,FS:0,LA!D:1!F:3,FWL:2-,CC:0,MERC!B:1!C:1!D:2!F:3,CS:0,Periphery:3-,TC!D:1!F:3,Periphery.Deep!A:1!B:1!C:2!D:3!F:4,HL:4-,PIR!A:1!B:1!C:2!D:3!F:4</availability>
             <model name='CGR-1A1'>
                 <roles>recon</roles>
-                <availability>IS:8,LA:8,FWL:8,DC:8,MERC:8,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
+                <availability>IS:8,MERC:8,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
             </model>
         </chassis>
         <chassis name='Cheetah' unitType='AeroSpaceFighter'>
@@ -5361,7 +5361,7 @@
             </model>
         </chassis>
         <chassis name='Marauder II' unitType='Mek'>
-            <availability>MERC:1+:3022,MERC.WD:4</availability>
+            <availability>MERC:1+:3022,MERC.WD:4+</availability>
             <model name='MAD-4A'>
                 <roles>command</roles>
                 <availability>MERC:8</availability>
@@ -7201,9 +7201,9 @@
             </model>
         </chassis>
         <chassis name='Quasit' unitType='Mek'>
-            <availability>Periphery:4-,PIR:3</availability>
+            <availability>Periphery:4-,NIOPS:0,PIR:3</availability>
             <model name='QUA-51T MilitiaMech'>
-                <availability>Periphery:8,NIOPS:0,PIR:8</availability>
+                <availability>Periphery:8,PIR:8</availability>
             </model>
         </chassis>
         <chassis name='Quetzalcoatl-Scout JumpShip' unitType='Jumpship'>
@@ -8639,7 +8639,7 @@
                 <availability>IS:8,FS!A:8!B:5!C:1,CC!A:8!B:8,MERC:8,CS:8,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
             </model>
             <model name='VTR-9S'>
-                <availability>LA!B:3</availability>
+                <availability>LA!B:3,Periphery.R:5-:3003,Periphery.MW:5-:3003</availability>
             </model>
         </chassis>
         <chassis name='Vincent Corvette' unitType='Warship'>
