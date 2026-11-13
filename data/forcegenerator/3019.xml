@@ -34,7 +34,7 @@
         </faction>
         <faction key='BH' />
         <faction key='CC'>
-            <pctSL>0,0,0,2</pctSL>
+            <!-- Star League percentages: 0,0,0,2 -->
             <salvage pct='5'>FWL:4,FS:10,TC:1</salvage>
         </faction>
         <faction key='NC'>
