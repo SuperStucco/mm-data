@@ -196,7 +196,7 @@
             <salvage pct='10'>CHH:1,CCC:2,CIH:10,CSR:10,CSV:3,CFM:3,CGS:2,CSA:3,CDS:2,CNC:7,CSJ:7,CJF:7,CGB:2,CB:3</salvage>
         </faction>
         <faction key='CS'>
-            <pctSL>0,20,40,50,75</pctSL>
+            <!-- Star League percentages: 0,20,40,50,75 -->
         </faction>
         <faction key='DC'>
             <salvage pct='5'>CC:1,OA:1,LA:10,FS:7</salvage>
@@ -857,13 +857,13 @@
         <chassis name='Awesome' unitType='Mek'>
             <availability>IS:2+,FWL!A:7!B:5!C:2,CC!A:3!B:2,MERC!A:3!B:1!C:1,CS!A:3!B:1!C:1!D:1,Periphery!A:2!B:1!C:1,Periphery.MW:3+,Periphery.ME:3+,TC:3+,MOC:3+,OA!A:1!B:1,CIR:3+,NIOPS!A:4!B:3!C:1,Periphery.Deep:1+,HL:1+,PIR!A:2!B:1!C:1</availability>
             <model name='AWS-8Q'>
-                <availability>IS:8,FWL!A:8!B:4,CC!A:8!B:3,MERC!A:8!B:5,CS!A:8!B:5!C:1,Periphery!A:8!B:3,Periphery.Deep!A:8,HL!A:8,PIR!A:8!B:5</availability>
+                <availability>IS:8,FWL!A:8!B:4,CC!A:8!B:3,MERC!A:8!B:5,CS!A:8!B:5!C:1,Periphery!A:8!B:3,Periphery.Deep!A:6,HL!A:8,PIR!A:8!B:5</availability>
             </model>
             <model name='AWS-8R'>
-                <availability>IS:3,FWL:6-,CC!A:1!B:6,MERC:0,CS!B:1!C:5!D:8,Periphery:7-,TC:6-,HL:7-,PIR:7-</availability>
+                <availability>IS:3,FWL:6-,CC!A:1!B:6,MERC:0,CS!B:1!C:5!D:8,Periphery:7-,TC:6-,Periphery.Deep!A:7,HL:7-,PIR:7-</availability>
             </model>
             <model name='AWS-8T'>
-                <availability>IS!A:4!B:1,FWL!A:4!B:2!C:1,CC!A:6!B:5,MERC!A:5!B:6!C:8,CS:0,Periphery:5,TC:4,HL:5,PIR!A:5!B:5!C:8</availability>
+                <availability>IS!A:4!B:1,FWL!A:4!B:2!C:1,CC!A:6!B:5,MERC!A:5!B:6!C:8,CS:0,Periphery:5,TC:4,Periphery.Deep!A:8,HL:5,PIR!A:5!B:5!C:8</availability>
             </model>
         </chassis>
         <chassis name='Baboon (Howler)' unitType='Mek'>
